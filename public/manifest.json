@@ -1,0 +1,41 @@
+{
+  "name": "RK Coaching Classes Balotra",
+  "short_name": "RK Coaching",
+  "description": "Premier CBSE & RBSE Coaching Institute in Balotra, Rajasthan (Class 1st to 10th)",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#070B16",
+  "theme_color": "#070B16",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["education"],
+  "shortcuts": [
+    {
+      "name": "Enroll for Batch",
+      "short_name": "Enroll",
+      "description": "Apply for classroom batch admission",
+      "url": "/#home",
+      "icons": [{ "src": "/images/logo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Ask Charlie AI",
+      "short_name": "Charlie AI",
+      "description": "Get homework help and instant doubt solutions",
+      "url": "/#charlie-ai-test",
+      "icons": [{ "src": "/images/logo.png", "sizes": "192x192" }]
+    }
+  ]
+}
